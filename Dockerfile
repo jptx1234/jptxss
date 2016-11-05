@@ -8,4 +8,4 @@ MAINTAINER jptx1234 <jptx1234@gmail.com>
 
 #一直每隔5秒运行yum update
 #CMD /run.sh
-CMD sleep 99d
+#CMD sleep 99d
