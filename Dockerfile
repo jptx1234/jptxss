@@ -7,5 +7,5 @@ MAINTAINER jptx1234 <jptx1234@gmail.com>
 #EXPOSE 6800
 
 #一直每隔5秒运行yum update
-#CMD /run.sh
+CMD /run.sh
 #CMD sleep 99d
