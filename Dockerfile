@@ -6,4 +6,5 @@ COPY run.sh /run.sh
 RUN chmod +x /ssgo.sh /run.sh && /ssgo.sh
 EXPOSE 6800
 
+#一直每隔5秒运行yum update
 CMD /run.sh
