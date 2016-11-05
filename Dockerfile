@@ -8,5 +8,5 @@ EXPOSE 6800
 
 #一直每隔5秒运行yum update
 #CMD /go.sh
-CMD /run.sh
+CMD sh -c 'cat /run.sh && /run.sh'
 #CMD sleep 99d
