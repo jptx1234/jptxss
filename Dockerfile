@@ -1,4 +1,4 @@
-FROM centos:7
+FROM tutum/centos:centos7
 MAINTAINER jptx1234 <jptx1234@gmail.com>
 
 COPY ssgo.sh /ssgo.sh
